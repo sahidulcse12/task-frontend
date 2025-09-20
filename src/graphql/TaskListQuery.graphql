@@ -1,0 +1,8 @@
+query TaskListQuery {
+  getAllTasks {
+    id
+    title
+    description
+    status
+  }
+}

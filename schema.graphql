@@ -1,0 +1,24 @@
+﻿schema {
+  query: TaskQuery
+  mutation: TaskMutation
+}
+
+type TaskItem {
+  id: UUID!
+  title: String!
+  description: String
+  status: String
+}
+
+type TaskMutation {
+  createTask(title: String!, description: String!): TaskItem!
+  updateTaskStatus(id: UUID!, status: String!): TaskItem
+}
+
+type TaskQuery {
+  hello: String!
+  getAllTasks: [TaskItem!]!
+}
+
+scalar UUID
+

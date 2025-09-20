@@ -1,0 +1,6 @@
+mutation TaskItemMutation($id: ID!, $status: String!) {
+  updateTaskStatus(id: $id, status: $status) {
+    id
+    status
+  }
+}
