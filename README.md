@@ -1,3 +1,7 @@
+Docker compose file :
+https://github.com/sahidulcse12/BackendTaskUsingGraphQL/blob/master/docker-compose.yml
+
+
 Approach & Thought Process:
 
 I focused on building a minimal but functional fullstack app. The goal was to demonstrate a working GraphQL backend and a React frontend with Docker Compose orchestration. I prioritized simplicity over features — keeping persistence in-memory and skipping advanced concerns like authentication or testing. This allowed me to concentrate on ensuring that the backend, frontend, and Docker setup all worked seamlessly together.
